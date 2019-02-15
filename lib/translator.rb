@@ -6,16 +6,16 @@ require 'yaml'
 
 
 
-# def load_library(file_path)
-#   library = {"get_meaning" =>{}, "get_emoticon" =>{}}
+def load_library(file_path)
+  library = {"get_meaning" =>{}, "get_emoticon" =>{}}
   
-#   YAML.load_file(file_path).each do |meaning, array| #angel => {["",""]}
-#   english, japanese = array
-#   library["get_emoticon"][english] = japanese
-#   library["get_meaning"][japense] = meaning
-# end 
-#   library
-# end 
+  YAML.load_file(file_path).each do |meaning, array| #angel => {["",""]}
+  english, japanese = array
+  library["get_emoticon"][english] = japanese
+  library["get_meaning"][japense] = meaning
+end 
+  library
+end 
 
 require 'yaml'
 def load_library(file_path)
