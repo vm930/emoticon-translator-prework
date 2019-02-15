@@ -12,7 +12,7 @@ def load_library(file_path)
    library["get_emoticon"][english] = japanese
    library["get_meaning"][japense] = meaning
  end 
-  library 
+  library
 end 
 
 # require 'yaml'
