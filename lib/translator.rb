@@ -4,8 +4,6 @@ require 'yaml'
 #   - "O:)"      
 #   - "☜(⌒▽⌒)☞
 
-
-
 def load_library(file_path)
   library = {"get_meaning" =>{}, "get_emoticon" =>{}}
   
